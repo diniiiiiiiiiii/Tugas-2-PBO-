@@ -4,7 +4,7 @@ public class Mahasiswa extends Elemen{ //Polimorfisme
     public int jamSibuk;
 
     public Mahasiswa (String nama, int Sks){
-        super(nama);
+        super(nama); //Downcasting (karena menggunakan properti kelas induk kelas mahasiswa)
         jamSibuk = Sks * 3;
     }
 
